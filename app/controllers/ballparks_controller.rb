@@ -1,0 +1,2 @@
+class BallparksController < ApplicationController
+end

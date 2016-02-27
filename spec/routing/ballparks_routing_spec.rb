@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ProjectsController, type: :routing do
+RSpec.describe BallparksController, type: :routing do
   describe "routes" do
     it "routes to #index" do
       expect(get '/ballparks').to route_to 'ballparks#index'
