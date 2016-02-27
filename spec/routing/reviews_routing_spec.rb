@@ -9,7 +9,7 @@ RSpec.describe ReviewsController, type: :routing do
 
     it "doesn't route to index" do
       expect(get '/ballparks/1/reviews').not_to be_routable
-    end
+    end 
 
     it "doesn't route to show" do
       expect(get '/ballparks/1/reviews/2').not_to be_routable, ballpark_id: "1", id: "2"
