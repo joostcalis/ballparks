@@ -53,4 +53,7 @@ group :development do
     gem 'rb-fsevent'
     gem 'terminal-notifier-guard'
   end
+ group :production do
+  gem 'rails_12factor'
+ end
 end
