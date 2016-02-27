@@ -1,7 +1,34 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Ballpark.create([
+{
+  name: "Yankee Stadium",
+  team: "NewYork Yankees",
+  city: "NewYork",
+  description: "Yankee Stadium is a stadium, used mainly for baseball, located in The Bronx, New York City. It is the home ballpark for the New York Yankees of Major League Baseball (MLB). The $2.3 billion stadium, built with $1.2 billion in public subsidies, replaced the original Yankee Stadium. It is one block north of the original, on the 24-acre former site of Macombs Dam Park; the 8-acre site of the original stadium is now a public park called Heritage Field. The first game at the new Yankee Stadium was a preseason exhibition game against the Chicago Cubs on April 3, 2009; the Yankees won, 7–4. The first regular-season game was played on April 16, a 10–2 Yankee loss to the Cleveland Indians. The overall price tag makes the new Yankee Stadium the most expensive stadium ever built.",
+  average_rating: 4
+},
+{
+  name: "Nationals Park",
+  team: "Washington Nationals",
+  city: "Washington",
+  description: "Nationals Park is a baseball park located along the Anacostia River in      the Navy Yard neighborhood of Washington, D.C. It is the home ballpark for the Washington Nationals, the city's Major League Baseball franchise. When the Nationals franchise relocated to Washington, D.C., they temporarily played at RFK Stadium until Nationals Park was completed. It is the first LEED-certified green major professional sports stadium in the United States. The facility hosted the 2008 season's first game (in North America), when the Nationals hosted the Atlanta Braves on March 30, 2008 and the first game played there was a collegiate baseball game.",
+  average_rating: 3
+},
+{
+  name: "Fenway Park",
+  team: "Boston RedSox",
+  city: "Boston",
+  description: "Fenway Park is a baseball park located in Boston, Massachusetts, at 4 Yawkey Way near Kenmore Square. Since 1912, it has been the home of the Boston Red Sox, the city's Major League Baseball (MLB) franchise. It is the oldest ballpark in MLB.
+  Because of its age and constrained location in Boston's dense Fenway–Kenmore neighborhood, the park has been renovated or expanded many times, resulting in quirky features including The Triangle, Pesky's Pole, and the Green Monster in left field. It is the fourth smallest among MLB ballparks by seating capacity, second smallest by total capacity, and one of eight that cannot accommodate at least 40,000 spectators.",
+  average_rating: 5
+},
+{
+  name: "Marlins Park",
+  team: "Miami Marlins",
+  city: "Miami",
+  description: "Marlins Park is a baseball park located in Miami, Florida. It is the current home of the Miami Marlins, the city's Major League Baseball franchise. It is located on 17 acres of the former Miami Orange Bowl site in Little Havana, about 2 miles west of Downtown. Construction was completed in March 2012, in time for the 2012 season.
+  The stadium is designed in a neomodern form of baseball architecture. Marlins Park was also LEED certified as the greenest MLB park in 2012. The building is the sixth MLB stadium to have a retractable roof. With a seating capacity of 37,442, it is the third-smallest stadium in Major League Baseball by official capacity, and the smallest by actual capacity.
+  There is wide consensus among sports fans that a retractable-roof stadium is a must for professional baseball to be viable in Miami due to both the area's blistering summer heat and frequent rain.
+  The facility hosted a second-round pool of the 2013 World Baseball Classic and will host the 2017 Major League Baseball All-Star Game.",
+  average_rating: 5
+}
+])
