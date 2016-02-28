@@ -12,7 +12,12 @@ class BallparksController < ApplicationController
   def show
       ballpark = Ballpark.find(params[:id])
       average_rating = get_average(ballpark)
-      render json: { ballpark: ballpark, average_rating: average_rating }
+      reviews = ballpark.reviews
+      render json: {
+        ballpark: ballpark,
+        average_rating: average_rating,
+        reviews: reviews
+        }
   end
 
   private
