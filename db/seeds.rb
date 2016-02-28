@@ -32,3 +32,41 @@ Ballpark.create([
   average_rating: 5
 }
 ])
+
+Review.create([
+{
+  general_experience: 4,
+  concession: 3,
+  extra_activity_rating: 3,
+  description: "we had a very nice time"
+  ballpark_id: 1
+},
+{
+  general_experience: 2,
+  concession: 2,
+  extra_activity_rating: 5,
+  description: "It was really not that good"
+  ballpark_id: 1
+},
+{
+  general_experience: 5,
+  concession: 1,
+  extra_activity_rating: 4,
+  description: "It was amazing!"
+  ballpark_id: 1
+},
+{
+  general_experience: 3,
+  concession: 4,
+  extra_activity_rating: 4,
+  description: "It was ok"
+  ballpark_id: 3
+},
+{
+  general_experience: 1,
+  concession: 1,
+  extra_activity_rating: 1,
+  description: "It was awefull!"
+  ballpark_id: 3
+}
+])
