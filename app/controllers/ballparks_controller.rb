@@ -27,7 +27,7 @@ class BallparksController < ApplicationController
       return 0
     else
       review_sum = reviews.inject(0) { |sum, review| sum += review.general_experience }
-      avg_rating = (review_sum / reviews.count).to_i
+      avg_rating = (review_sum / reviews.count).round
     end
   end
 end
