@@ -40,6 +40,7 @@ Review.create([
   extra_activity_rating: 3,
   overall_rating: 3,
   description: "we had a very nice time",
+  name: "Derek Jeter",
   ballpark_id: 1
 },
 {
@@ -48,6 +49,7 @@ Review.create([
   extra_activity_rating: 5,
   overall_rating: 3,
   description: "It was really not that good",
+  name: "David Ortiz",
   ballpark_id: 1
 },
 {
@@ -56,6 +58,7 @@ Review.create([
   extra_activity_rating: 4,
   overall_rating: 3,
   description: "It was amazing, but the food sucked!",
+  name: "Pablo Sandoval",
   ballpark_id: 1
 },
 {
@@ -64,6 +67,7 @@ Review.create([
   extra_activity_rating: 4,
   overall_rating: 4,
   description: "It was ok",
+  name: "David Price",
   ballpark_id: 3
 },
 {
@@ -72,6 +76,7 @@ Review.create([
   extra_activity_rating: 1,
   overall_rating: 1,
   description: "It was awefull!",
+  name: "Alex Rodriguez",
   ballpark_id: 3
 }
 ])
