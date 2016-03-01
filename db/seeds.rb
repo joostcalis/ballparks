@@ -103,6 +103,21 @@ Ballpark.create([
   The Oakland–Alameda County Coliseum complex consists of the stadium and the neighboring Oracle Arena."
 },
 {
+  name: "Safeco Field",
+  team: "Seattle Mariners",
+  league: "al_west",
+  city: "Seattle",
+  description: "Safeco Field (sometimes referred to as Safeco or The Safe) is a retractable roof baseball stadium located in Seattle, Washington. Owned and operated by the Washington State Major League Baseball Stadium Public Facilities District, it is the home stadium of the Seattle Mariners of Major League Baseball (MLB) and has a seating capacity of 47,574 for baseball. It is located in Seattle's SoDo neighborhood, near the western terminus of Interstate 90. The first game was played on July 15, 1999.
+  During the 1990s, the suitability of the Mariners' original stadium—the Kingdome—as an MLB facility came under doubt, and the team's ownership group threatened to relocate the team. In September 1995, King County voters defeated a ballot measure to secure public funding for a new baseball stadium. Shortly thereafter, the Mariners' first appearance in the MLB postseason and their victory in the 1995 American League Division Series (ALDS) renewed a public desire to keep the team in town. As a result, the Washington State Legislature approved an alternate means of funding for the stadium with public money. The site for the stadium, just south of the Kingdome, was selected in September 1996 and construction began in March 1997."
+},
+{
+  name: "Globe Life Park in Arlington",
+  team: "Texas Rangers",
+  league: "al_west",
+  city: "Arlington",
+  description: "Globe Life Park in Arlington is a stadium in Arlington, Texas, located between Dallas and Fort Worth. It is home to the American League's Texas Rangers, and the Texas Rangers Baseball Hall of Fame. It was constructed as a replacement for nearby Arlington Stadium. It was known as The Ballpark in Arlington until May 7, 2004, when Ameriquest bought the naming rights to it and renamed it Ameriquest Field in Arlington. On March 19, 2007, the Rangers severed their relationship with Ameriquest and announced that it would be renamed Rangers Ballpark in Arlington. On February 5, 2014, Globe Life and Accident Insurance Company bought the naming rights to it. Globe Life is owned by Torchmark Corporation, which is based in McKinney, Texas, a northern suburb of Dallas."
+},
+{
   name: "Nationals Park",
   team: "Washington Nationals",
   league: "nl_east",
@@ -118,6 +133,109 @@ Ballpark.create([
   The stadium is designed in a neomodern form of baseball architecture. Marlins Park was also LEED certified as the greenest MLB park in 2012. The building is the sixth MLB stadium to have a retractable roof. With a seating capacity of 37,442, it is the third-smallest stadium in Major League Baseball by official capacity, and the smallest by actual capacity.
   There is wide consensus among sports fans that a retractable-roof stadium is a must for professional baseball to be viable in Miami due to both the area's blistering summer heat and frequent rain.
   The facility hosted a second-round pool of the 2013 World Baseball Classic and will host the 2017 Major League Baseball All-Star Game."
+},
+{
+  name: "Citi Field",
+  team: "New York Mets",
+  league: "nl_east",
+  city: "New York",
+  description: "Citi Field is a stadium located in Flushing Meadows–Corona Park in the New York City borough of Queens. Completed in 2009, it is the home baseball park of Major League Baseball's New York Mets. Citi Field was built as a replacement for the formerly adjacent Shea Stadium, which opened in 1964 next to the site of the 1964–1965 World's Fair. Citi Field was designed by Populous (then HOK Sport), and is named after Citigroup, a New York financial services company which purchased the naming rights. The $850 million baseball park was funded with $615 million in public subsides, including the sale of New York City municipal bonds which are to be repaid by the Mets plus interest.
+  The first game at Citi Field was on March 29, 2009, with a college baseball game between St. John's and Georgetown. The Mets played their first two games at the ballpark on April 3 and April 4, 2009 against the Boston Red Sox as charity exhibition games. The first regular season home game was played on April 13, 2009, against the San Diego Padres. Citi Field hosted the 2013 Major League Baseball All-Star Game. This marked the second time the Mets have hosted the game, the first being 1964, the inaugural season of Shea Stadium."
+},
+{
+  name: "Citizens Bank Park",
+  team: "Philadelphia Phillies",
+  league: "nl_east",
+  city: "Philadelphia",
+  description: "Citizens Bank Park is a baseball park located in Philadelphia, Pennsylvania, within the South Philadelphia Sports Complex. It is the home of the Philadelphia Phillies, the city's Major League Baseball (MLB) franchise. It is commonly referred to by locals simply as The Bank or CBP. Citizens Bank Park opened on April 3, 2004, and hosted its first regular season baseball game on April 12 of the same year, with the Phillies losing to the Cincinnati Reds, 4–1. The ballpark was built to replace the now-demolished Veterans Stadium (a football/baseball multipurpose facility), and features natural grass and dirt playing field and also features a number of Philadelphia-style food stands, including several which serve cheesesteaks, hoagies, and other regional specialties. The ballpark lies on the northeast corner of the Sports Complex, which includes Lincoln Financial Field, Wells Fargo Center, and Xfinity Live!. The stadium's capacity is 43,651 seats."
+},
+{
+  name: "Turner Field",
+  team: "Atlanta Braves",
+  league: "nl_east",
+  city: "Atlanta",
+  description: "Turner Field is a baseball park located in Atlanta, Georgia. Since 1997, it has served as the home ballpark to the Atlanta Braves of Major League Baseball (MLB). Originally built as Centennial Olympic Stadium in 1996 to serve as the centerpiece of the 1996 Summer Olympics, the stadium was converted into a baseball park to serve as the new home of the team. The Braves moved less than one block from Atlanta–Fulton County Stadium, which served as their home ballpark from 1966 to 1996 (31 years).
+  Opening during the Braves' division dominance years, Turner Field has hosted the National League Division Series a total of 11 times (1997–2005, 2010, 2013); it has also hosted the National League Championship Series four times (1997–1999, 2001), as well as one World Series (1999), one NL Wild Card Game (2012, the first in baseball history), and the 2000 Major League Baseball All-Star Game."
+},
+{
+  name: "Wrigley Field",
+  team: "Chicago Cubs",
+  league: "nl_central",
+  city: "Chicago",
+  description: "Wrigley Field is a baseball park located on the North Side of Chicago, Illinois, United States. It is the home of the Chicago Cubs, one of the city's two Major League Baseball (MLB) franchises.
+  It was built in 1914 as Weeghman Park for the Chicago Federal League baseball team, the Chicago Whales. The Cubs played their first game at Weeghman Park on April 20, 1916, defeating the Cincinnati Reds 7–6 in eleven innings. In November 1918, Weeghman resigned as team president. Chewing gum magnate William Wrigley, Jr. acquired complete control of the Cubs by 1921. It was called Cubs Park from 1920 through 1926, before officially becoming Wrigley Field for the 1927 season.
+  Wrigley Field is nicknamed The Friendly Confines, a phrase popularized by Mr. Cub, Hall of Famer Ernie Banks. The current seating capacity is 42,495. It is the oldest National League ballpark, the second-oldest active major league ballpark (after Fenway Park on April 20, 1912), and the only remaining Federal League park.
+  Wrigley Field is known for its ivy-covered brick outfield wall, the unusual wind patterns off Lake Michigan, the iconic red marquee over the main entrance, the hand-turned scoreboard, and for being the last major league park to have lights installed for play after dark, with lighting installed in 1988. The area surrounding the ballpark contains residential streets, in addition to bars, restaurants and other establishments, and is called Wrigleyville. Between 1921 and 1970, it was also the home of the Chicago Bears of the National Football League."
+},
+{
+  name: "Great American Ballpark",
+  team: "Cincinnati Reds",
+  league: "nl_central",
+  city: "Cincinnati",
+  description: "Great American Ball Park is a baseball stadium in Cincinnati, Ohio, which is the home field of Major League Baseball's Cincinnati Reds. It opened in 2003, replacing Cinergy Field (formerly Riverfront Stadium), their home field from 1970 to 2002. The park's name comes from the Great American Insurance Group.
+  The ballpark hosted the 2015 Major League Baseball All-Star Game. The Reds put in $5 million for improvements, which included two new bars and upgraded concession stands."
+},
+{
+  name: "Miller Park",
+  team: "Milwaukee Brewers",
+  league: "nl_central",
+  city: "Milwaukee",
+  description: "Miller Park is a baseball park located in Milwaukee, Wisconsin. It is home to the Milwaukee Brewers and was completed in 2001 as a replacement for Milwaukee County Stadium. The park is located just southwest of the intersection of Interstate 94 and Miller Park Way (Wisconsin Highway 175). The title sponsor is the Miller Brewing Company. Miller's contract with the stadium was for $40 million, and runs until 2020.
+  Miller Park features North America's only fan-shaped convertible roof, which can open and close in less than 10 minutes. Large panes of glass allow natural grass to grow, augmented with heat lamp structures wheeled out across the field during the off-season."
+},
+{
+  name: "PNC Park",
+  team: "Pittsburgh Pirates",
+  league: "nl_central",
+  city: "Pittsburgh",
+  description: "PNC Park is a baseball park located on the North Shore of Pittsburgh, Pennsylvania. It is the fifth home of the Pittsburgh Pirates, the city's Major League Baseball (MLB) franchise. It opened during the 2001 MLB season, after the controlled implosion of the Pirates' previous home, Three Rivers Stadium. The ballpark is sponsored by PNC Financial Services, which purchased the naming rights in 1998. PNC Park features a natural grass playing surface and seats 38,362 people for baseball.
+  Funded in conjunction with Heinz Field and the David L. Lawrence Convention Center, the $216 million park stands along the Allegheny River, on the North Shore of Pittsburgh with a view of Downtown Pittsburgh. Plans to build a new stadium for the Pirates originated in 1991, but did not come to fruition for 5 years. Built in the style of classic stadiums, such as Pittsburgh's Forbes Field, PNC Park also introduced unique features, such as the use of limestone in the building's facade. The park also features a riverside concourse, steel truss work, an extensive out-of-town scoreboard, and many local eateries. Constructed faster than most modern stadiums, PNC Park was built in a 24-month span."
+},
+{
+  name: "Busch Stadium",
+  team: "St. Louis Cardinals",
+  league: "nl_central",
+  city: "St. Louis",
+  description: "Busch Stadium, also referred to informally as New Busch Stadium or Busch Stadium III, is a baseball park located in St. Louis, Missouri, and the home of the St. Louis Cardinals , the city's Major League Baseball (MLB) franchise. The stadium has a seating capacity of 43,975, and contains 3,706 club seats and 61 luxury suites. It replaced Busch Memorial Stadium (aka Busch Stadium II) and occupies a portion of that stadium's former footprint. A commercial area, dubbed Ballpark Village, was built adjacent to the stadium over the remainder of the former stadium's footprint.
+  The stadium opened on April 4, 2006 with an exhibition between the minor league Memphis Redbirds and Springfield Cardinals, both affiliates of the St. Louis Cardinals, which Springfield won 5-3 with right-hander Mike Parisi recording the first win. The first official major league game occurred on April 10, 2006 as the Cardinals defeated the Milwaukee Brewers 6–4 behind an Albert Pujols home run and winning pitcher Mark Mulder."
+},
+{
+  name: "Chase Field",
+  team: "Arizona Diamondbacks",
+  league: "nl_west",
+  city: "Phoenix",
+  description: "Chase Field is a baseball park located in Downtown Phoenix, Arizona. It is the home of the Arizona Diamondbacks, the city's Major League Baseball (MLB) franchise. It opened 18 years ago in 1998, in time for the Diamondbacks' first game as an expansion team. Chase Field was the first stadium built in the United States with a retractable roof over a natural-grass playing surface."
+},
+{
+  name: "Coors Field",
+  team: "Colorado Rockies",
+  league: "nl_west",
+  city: "Denver",
+  description: "Coors Field is a baseball park located in Denver, Colorado. It is the home field of the Colorado Rockies, the city's Major League Baseball (MLB) franchise. It is named for the Coors Brewing Company of Golden, Colorado, which purchased the naming rights to the park prior to its completion in 1995. The Rockies played their first two seasons, 1993 and 1994, in Mile High Stadium before moving to Coors Field, two blocks from Union Station in Denver's Lower Downtown (or LoDo) neighborhood. The park includes 63 luxury suites and 4,526 club seats."
+},
+{
+  name: "Dodger Stadium",
+  team: "Los Angeles Dodgers",
+  league: "nl_west",
+  city: "Los Angeles",
+  description: "Dodger Stadium, occasionally called by the metonym Chavez Ravine, is a baseball park located in the Elysian Park neighborhood of Los Angeles, California, the home field of the Los Angeles Dodgers, the city's Major League Baseball (MLB) franchise. Opened 54 years ago on April 10, 1962, it was constructed in less than three years at a cost of $23 million, financed by private sources.
+  Dodger Stadium is currently the third-oldest ballpark in MLB, after Fenway Park in Boston (1912) and Wrigley Field in Chicago (1914) and is the largest MLB stadium by seat capacity. Often referred to as a pitcher's ballpark, the stadium has seen 12 no-hitters, two of which were perfect games."
+},
+{
+  name: "Petco Park",
+  team: "San Diego Padres",
+  league: "nl_west",
+  city: "San Diego",
+  description: "Petco Park is a baseball park, but also known as a venue for concerts, football, golf and rugby sevens, located in downtown San Diego, California. It opened in 2004, replacing Jack Murphy/Qualcomm Stadium as the home park of the San Diego Padres, the city's Major League Baseball (MLB) franchise. The Padres previously shared Jack Murphy/Qualcomm Stadium with the National Football League's San Diego Chargers. Petco Park is named after the pet supplies retailer Petco, which is based in San Diego and paid for the naming rights until 2026.
+  The ballpark is located between 7th and 10th Avenues, south of J Street."
+},
+{
+  name: "AT&T Park",
+  team: "San Diego Padres",
+  league: "nl_west",
+  city: "San Diego",
+  description: "AT&T Park is a baseball park located in the South Beach neighborhood of San Francisco, California. Since 2000, it has served as the home of the San Francisco Giants, the city's Major League Baseball (MLB) franchise. Originally named Pacific Bell Park, then SBC Park in 2003 after SBC Communications acquired Pacific Bell, the stadium was ultimately christened AT&T Park in 2006 following SBC's merger with AT&T.
+  The park stands along the San Francisco Bay, a segment of which is named McCovey Cove, in honor of former Giants player Willie McCovey. The venue has hosted the annual Fight Hunger Bowl, a college football bowl game from 2002 to 2013, and other occasional sporting and musical events. For the 2011 season, the park served as the home of the California Golden Bears football team while Memorial Stadium underwent seismic retrofitting and renovations."
 }
 ])
 
