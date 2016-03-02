@@ -1,7 +1,7 @@
 class Stadium::Application
  config.middleware.insert_before 0,  "Rack::Cors", debug: true, logger: (-> { Rails.logger }) do
    allow do
-     origins 'localhost:3000', '127.0.0.1:3000',
+     origins 'localhost:3000', '127.0.0.1:3000', 'http://physiotherapist-walrus-68848.bitballoon.com',
        /\Ahttp:\/\/192\.168\.0\.\d{1,3}(:\d)?\z/
 
      resource '/cors',
