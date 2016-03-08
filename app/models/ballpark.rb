@@ -7,7 +7,7 @@ class Ballpark < ActiveRecord::Base
 
   def average_rating
     if has_reviews?
-      return self.reviews.average(:overall_rating)
+      return self.reviews.average(:overall_rating).round(1)
     else
       return 0
     end
