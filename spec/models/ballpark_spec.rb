@@ -4,6 +4,7 @@ RSpec.describe Ballpark, type: :model do
   describe "check has many reviews relation" do
     it { is_expected.to have_many(:reviews) }
   end
+  
   describe "it should return arrays based on leagues" do
       it "gives an array of selected ballparks" do
         ballpark1 = Ballpark.create!(:league => "al_west")

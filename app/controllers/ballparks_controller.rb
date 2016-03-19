@@ -6,7 +6,7 @@ class BallparksController < ApplicationController
     nl_west = Ballpark.where("league = 'nl_west'")
     nl_central = Ballpark.where("league = 'nl_central'")
     nl_east = Ballpark.where("league = 'nl_east'")
-    latest_10_reviews = Review.order(id: :asc).limit(10)
+    latest_10_reviews = Review.order(id: :desc).limit(10)
 
     render json: {
       meta: {
@@ -19,7 +19,7 @@ class BallparksController < ApplicationController
       nl_west: nl_west.as_json({:include => :reviews, :methods => :average_rating}),
       nl_central: nl_central.as_json({:include => :reviews, :methods => :average_rating}),
       nl_east: nl_east.as_json({:include => :reviews, :methods => :average_rating}),
-      reviews: latest_10_reviews
+      reviews: latest_10_reviews.as_json({:include => :ballpark})
     }
   end
 
