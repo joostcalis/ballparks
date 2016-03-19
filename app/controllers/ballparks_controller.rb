@@ -1,12 +1,12 @@
 class BallparksController < ApplicationController
   def index
-    ballparks = Ballpark.all
-    al_west = get_league(ballparks, "al_west")
-    al_central = get_league(ballparks, "al_central")
-    al_east = get_league(ballparks, "al_east")
-    nl_west = get_league(ballparks, "nl_west")
-    nl_central = get_league(ballparks, "nl_central")
-    nl_east = get_league(ballparks, "nl_east")
+    al_west = Ballpark.where("league = 'al_west'")
+    al_central = Ballpark.where("league = 'al_central'")
+    al_east = Ballpark.where("league = 'al_east'")
+    nl_west = Ballpark.where("league = 'nl_west'")
+    nl_central = Ballpark.where("league = 'nl_central'")
+    nl_east = Ballpark.where("league = 'nl_east'")
+    latest_10_reviews = Review.order(id: :asc).limit(10)
 
     render json: {
       meta: {
@@ -18,7 +18,8 @@ class BallparksController < ApplicationController
       al_east: al_east.as_json({:include => :reviews, :methods => :average_rating}),
       nl_west: nl_west.as_json({:include => :reviews, :methods => :average_rating}),
       nl_central: nl_central.as_json({:include => :reviews, :methods => :average_rating}),
-      nl_east: nl_east.as_json({:include => :reviews, :methods => :average_rating})
+      nl_east: nl_east.as_json({:include => :reviews, :methods => :average_rating}),
+      reviews: latest_10_reviews
     }
   end
 
@@ -32,28 +33,4 @@ class BallparksController < ApplicationController
         reviews: reviews
         }
   end
-
-  private
-
-  # def get_average(ballpark)
-  #   reviews = ballpark.reviews
-  #   if reviews.empty?
-  #     return 0
-  #   else
-  #     review_sum = reviews.inject(0) { |sum, review| sum += review.overall_rating }
-  #     avg_rating = (review_sum.to_f / reviews.count).round
-  #   end
-  # end
-
-  def get_league(ballparks, league)
-    array = []
-    ballparks.each do |ballpark|
-      if ballpark.league == league
-        array << ballpark
-      end
-    end
-    return array
-  end
-
-
 end
