@@ -11,5 +11,4 @@ As with all bootcamp projects, this is still a work in progress. So if you're in
 
 You can find the React app <a href="http://physiotherapist-walrus-68848.bitballoon.com/" target="blank">here</a>.
 
-And the corresponding  <a href="
-<a href="https://github.com/joostcalis/ballparks_front" target="blank">Github repository</a>.
+And the corresponding <a href="https://github.com/joostcalis/ballparks_front" target="blank">Github repository</a>.
