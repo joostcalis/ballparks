@@ -1,4 +1,4 @@
-![Build Status](https://circleci.com/gh/:owner/:repo.png?circle-token=:circle-token)]
+<img src="https://circleci.com/gh/:owner/:repo.png?circle-token=:circle-token" />
 
 # Individual project for Codaisseur's bootcamp.
 
