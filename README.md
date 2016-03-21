@@ -1,3 +1,5 @@
+<img src="https://circleci.com/gh/:joostcalis/:ballparks.png?circle-token=:circle-token" />
+
 # Individual project for Codaisseur's bootcamp.
 
 ### This is a RESTful API rendering 30 seeded MLB ballparks in JSON, with relevant info about each ballpark.
