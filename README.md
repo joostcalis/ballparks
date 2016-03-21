@@ -1,4 +1,4 @@
-<img src="https://circleci.com/gh/joostcalis/ballparks.png?circle-token=:circle-token" />
+ Build status: <img src="https://circleci.com/gh/joostcalis/ballparks.png?circle-token=:circle-token" />
 
 # Individual project for Codaisseur's bootcamp.
 
