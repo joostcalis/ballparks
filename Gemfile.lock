@@ -210,7 +210,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
+  byebug (~> 8.2.2)
   coffee-rails (~> 4.1.0)
   guard-rspec
   jbuilder (~> 2.0)
