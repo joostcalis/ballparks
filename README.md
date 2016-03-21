@@ -9,7 +9,7 @@ The Front End is completely built in React.js
 
 As with all bootcamp projects, this is still a work in progress. So if you're interested check back once in a while.
 
-You can find the React app <a href="
-http://physiotherapist-walrus-68848.bitballoon.com/" target="blank">here</a>.
+You can find the React app <a href="http://physiotherapist-walrus-68848.bitballoon.com/" target="blank">here</a>.
+
 And the corresponding  <a href="
 <a href="https://github.com/joostcalis/ballparks_front" target="blank">Github repository</a>.
