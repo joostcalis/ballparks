@@ -203,7 +203,7 @@ Ballpark.create([
   team_logo: "http://chicago.cubs.mlb.com/documents/5/5/2/111260552/CHC_header_logo_nm97io3l.svg",
   league: "nl_central",
   city: "Chicago",
-  image: "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/3953934/usa-today-8666711.0.0.jpg"
+  image: "https://cdn1.vox-cdn.com/uploads/chorus_asset/file/3953934/usa-today-8666711.0.0.jpg",
   description: "Wrigley Field is a baseball park located on the North Side of Chicago, Illinois, United States. It is the home of the Chicago Cubs, one of the city's two Major League Baseball (MLB) franchises.
   It was built in 1914 as Weeghman Park for the Chicago Federal League baseball team, the Chicago Whales. The Cubs played their first game at Weeghman Park on April 20, 1916, defeating the Cincinnati Reds 7–6 in eleven innings. In November 1918, Weeghman resigned as team president. Chewing gum magnate William Wrigley, Jr. acquired complete control of the Cubs by 1921. It was called Cubs Park from 1920 through 1926, before officially becoming Wrigley Field for the 1927 season.
   Wrigley Field is nicknamed The Friendly Confines, a phrase popularized by Mr. Cub, Hall of Famer Ernie Banks. The current seating capacity is 42,495. It is the oldest National League ballpark, the second-oldest active major league ballpark (after Fenway Park on April 20, 1912), and the only remaining Federal League park.
