@@ -13,13 +13,13 @@ class BallparksController < ApplicationController
         count: Ballpark.count,
         page: 0
       },
-      al_west: al_west.as_json({:include => :reviews, :methods => :average_rating}),
-      al_central: al_central.as_json({:include => :reviews, :methods => :average_rating}),
-      al_east: al_east.as_json({:include => :reviews, :methods => :average_rating}),
-      nl_west: nl_west.as_json({:include => :reviews, :methods => :average_rating}),
-      nl_central: nl_central.as_json({:include => :reviews, :methods => :average_rating}),
-      nl_east: nl_east.as_json({:include => :reviews, :methods => :average_rating}),
-      reviews: latest_10_reviews.as_json({:include => :ballpark})
+      al_west: al_west.as_json({include: :reviews, methods: :average_rating}),
+      al_central: al_central.as_json({include: :reviews, methods: :average_rating}),
+      al_east: al_east.as_json({include: :reviews, methods: :average_rating}),
+      nl_west: nl_west.as_json({include: :reviews, methods: :average_rating}),
+      nl_central: nl_central.as_json({include: :reviews, methods: :average_rating}),
+      nl_east: nl_east.as_json({include: :reviews, methods: :average_rating}),
+      reviews: latest_10_reviews.as_json({include: :ballpark})
     }
   end
 
